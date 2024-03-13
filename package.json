@@ -1,0 +1,13 @@
+{
+    "name": "real-time-chay",
+    "version": "1.0.0",
+    "description": "Creates a server in which clients can recieve and broadcast texts",
+    "main": "source.js",
+    "scripts": {
+      "start": "node source.js" 
+    },
+    "dependencies": {
+    
+    }
+  }
+  

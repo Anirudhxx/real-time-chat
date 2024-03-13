@@ -2,8 +2,9 @@ const net = require('net');
 const readline = require('readline');
 
 const client = new net.Socket();
-
-client.connect(3000, '127.0.0.1', async () => {
+const host = process.env.SERVER_HOST || '127.0.0.1'; // Use environment variable or default to localhost
+const port = process.env.SERVER_PORT || 3000; 
+client.connect(port, host, async () => {
     console.log('Connected to server');
 
     const rl = readline.createInterface({
