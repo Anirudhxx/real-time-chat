@@ -28,6 +28,6 @@ server.on('connection', async (socket) => {
 });
 
 const port = process.env.PORT || 3000; // Use the PORT environment variable or default to 3000
-server.listen(PORT, () => {
-    console.log(`Server listening on port ${PORT}`);
+server.listen(port, () => {
+    console.log(`Server listening on port ${port}`);
 });

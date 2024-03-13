@@ -36,6 +36,31 @@ Open another terminal and run the client:
     node client.js
 
 Start typing messages in the client terminal to send messages to the chat server. You will see messages from other clients displayed in real-time.
+Prerequisites
+
+Before running the Docker image, ensure that you have Docker installed on your system. You can download and install Docker from the official website: https://www.docker.com/get-started
+Usage
+
+To download and run the chat server Docker image, follow these steps:
+
+Download the Docker image:
+
+bash
+
+    docker pull anirudhchauhan10/chat-server:v1
+
+
+Run the Docker container:
+
+bash
+
+    docker run -d -p 3000:3000 <username>/chat-server:v1
+
+This command will start the chat server container in detached mode (-d) and map port 3000 on the host to port 3000 in the container.
+
+Accessing the Chat Server
+
+Once the Docker container is running, you can access the chat server by connecting to localhost:3000 in your web browser or using a tool like cURL or Postman to send messages to the server.
 
 Contributing
 
