@@ -54,7 +54,7 @@ Run the Docker container:
 
 bash
 
-    docker run -d -p 3000:3000 <username>/chat-server:v1
+    docker run -d -p 3000:3000 anirudhchauhan10/chat-server:v1
 
 This command will start the chat server container in detached mode (-d) and map port 3000 on the host to port 3000 in the container.
 
