@@ -4,7 +4,7 @@
     "description": "Creates a server in which clients can recieve and broadcast texts",
     "main": "source.js",
     "scripts": {
-      "start": "node source.js" 
+      "start": "node server.js" 
     },
     "dependencies": {
     
